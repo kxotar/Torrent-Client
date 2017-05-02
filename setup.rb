@@ -27,7 +27,7 @@ include Utils
 
 
 download_path= "."
-torrent= "/home/skeleton/Downloads/Content/13F3DDA512D0A6146223BAF2B2FBA9057BA9217B.torrent"
+torrent= "/home/skeleton/Downloads/Content/abc123.torrent"
 client = Client.new(torrent, download_path)
 client.run!
 
